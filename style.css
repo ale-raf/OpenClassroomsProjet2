@@ -284,7 +284,7 @@ p {
 	flex-direction: column;
 	justify-content: space-between;
 	width: 80%;
-	padding: 15px;
+	padding: 5px 15px;
 }
 
 .popular-desc h4 {
@@ -350,9 +350,7 @@ p {
 }
 
 .accomodations-desc {
-	display: flex;
-	flex-direction: column;
-	padding: 10px;
+	padding: 5px;
 	color: black;
 }
 
@@ -479,6 +477,11 @@ p {
 	.activities-item {
 		height: 267px;
 	}
+
+	.activities-item h4 {
+		padding: 12px;
+		font-size: 15px;
+	}
 	
 	.activities-item .card-img img {
 		height: 211px;
@@ -511,11 +514,11 @@ p {
 	}
 
 	.menu li {
-	border-top: none;
-	border-bottom: 3px solid transparent;
-	margin: 0 auto;
-	width: 50%;
-	text-align: center;
+		border-top: none;
+		border-bottom: 3px solid transparent;
+		margin: 0 auto;
+		width: 50%;
+		text-align: center;
 	}
 
 	.slogan {
@@ -524,10 +527,6 @@ p {
 
 	.form {
 		width: 100%;
-	}
-
-	.form input {
-		padding: 0 0 0 15px;
 	}
 
 	.form input[placeholder] {
@@ -554,7 +553,7 @@ p {
 		align-items: baseline;
 	}
 
-	.accomodations-marseille{
+	.accomodations-marseille {
 		flex-direction: column;
 		width: 100%;
 	}
@@ -572,10 +571,6 @@ p {
 	.popular-item {
 		width: 100%;
 		margin: 0 auto;
-	}
-
-	.popular-desc {
-		gap: 0;
 	}
 
 	.accomodations-section {
