@@ -613,6 +613,10 @@ p {
 		height: 100%;
 	}
 
+	.activities-item h4 {
+		font-size: 19px;
+	}
+
 	.activities-item .card-img img {
 		height: 134px;
 	}
