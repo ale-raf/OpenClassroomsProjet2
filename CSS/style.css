@@ -8,12 +8,12 @@
 
 @font-face {
 	font-family: 'Raleway';
-	src: url(/assets/Raleway/Raleway-Regular.ttf);
+	src: url(../assets/Raleway/Raleway-Regular.ttf);
 }
 
 @font-face {
 	font-family: 'Raleway-Light';
-	src: url(/assets/Raleway/Raleway-Light.ttf);
+	src: url(../assets/Raleway/Raleway-Light.ttf);
 }
 
 body {
@@ -259,6 +259,7 @@ p {
 
 .popular-item {
 	display: flex;
+	height: 144px;
 	color: black;
 	background-color: white;
 	border: 5px solid white;
@@ -274,7 +275,7 @@ p {
 
 .popular-item img {
 	width: 45%;
-	height: 144px;
+	height: 100%;
 	border-radius: 20px 0 0 20px;
 	object-fit: cover;
 }
@@ -439,7 +440,7 @@ p {
 	}
 
 	nav {
-		width: 40%;
+		width: 45%;
 	}
 
 	.filters {
