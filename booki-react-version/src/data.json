@@ -1,0 +1,26 @@
+[
+    {
+        "title": "Auberge la Cannebière",
+        "price": "Nuit à partir de 25€"
+    },
+    {
+        "title": "Hôtel du Port",
+        "price": "Nuit à partir de 52€"
+    },
+    {
+        "title": "Hôtel Les mouettes",
+        "price": "Nuit à partir de 76€"
+    },
+    {
+        "title": "Hôtel de la mer",
+        "price": "Nuit à partir de 46€"
+    },
+    {
+        "title": "Auberge Le Panier",
+        "price": "Nuit à partir de 23€"
+    },
+    {
+        "title": "Hôtel Chez Amina",
+        "price": "Nuit à partir de 96€"
+    }
+]
