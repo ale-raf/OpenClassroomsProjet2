@@ -49,7 +49,7 @@ section {
     padding: 15px;
     border: none;
     color: white;
-    background-color: index.$primary;
+    background-color: index.$blue;
     border-radius: 0 15px 15px 0;
     font-family: 'Raleway';
     font-size: 18px;
@@ -62,7 +62,7 @@ section {
     padding: 15px;
     border: none;
     color: white;
-    background-color: index.$primary;
+    background-color: index.$blue;
     border-radius: 0 15px 15px 0;
     cursor: pointer;
 }
@@ -85,7 +85,7 @@ section {
     gap: 10px;
     padding: 15px;
     border-radius: 25px;
-    border: 2px solid index.$secondary;
+    border: 2px solid index.$grey;
     &:hover {
         background-color: index.$second-blue;
         cursor: pointer;
@@ -109,14 +109,14 @@ section {
     width: 24px;
     height: 24px;
     padding: 15px;
-    color: index.$primary;
+    color: index.$blue;
     border-radius: 24px;
-    border: 1px solid index.$secondary;
+    border: 1px solid index.$grey;
 }
 
 .icon {
     width: 22px;
-    color: index.$primary;
+    color: index.$blue;
 }
 
 @media screen and (max-width: 768px) {

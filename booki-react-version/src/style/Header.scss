@@ -27,8 +27,8 @@ nav {
         text-decoration: none;
         color: black;
         &:hover {
-            border-top: 2px solid index.$primary;
-            color: index.$primary;
+            border-top: 2px solid index.$blue;
+            color: index.$blue;
         }
     }
 }
@@ -58,7 +58,7 @@ nav {
         font-size: 16px;
             &:hover {
                 border-top: none;
-                border-bottom: 2px solid index.$primary;
+                border-bottom: 2px solid index.$blue;
             }
         }
     }
