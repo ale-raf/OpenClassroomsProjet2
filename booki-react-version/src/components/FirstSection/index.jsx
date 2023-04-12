@@ -1,6 +1,6 @@
-import data from '../../data.json';
-import populaires from '../../populaires.json';
-import Card from '../Card';
+import hebergementsList from '../../hebergements';
+import populairesList from '../../populaires';
+import HebergementsCard from '../HebergementsCard';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faChartLine } from '@fortawesome/free-solid-svg-icons';
 import '../../style/FirstSection.scss';
@@ -10,8 +10,9 @@ export default function FirstSection() {
         <section className="section-group">
             <div className="hebergements">
                 <h2>Hébergements à Marseille</h2>
-                {data.map((card) => (
-                    <Card key={card.title} article="hebergements-card" title={card.title} price={card.price} />
+                {hebergementsList.map((card) => (
+                    <HebergementsCard key={card.title} article="hebergements-card" cover="hebergements-cover" background={card.cover} info="hebergements-info" 
+                    title={card.title} price={card.price} />
                 ))}
                 <p>Afficher plus</p>
             </div>
@@ -20,8 +21,9 @@ export default function FirstSection() {
                     <h2>Les plus populaires</h2>
                     <span className="populaires-trend"><FontAwesomeIcon icon={faChartLine}/></span>
                 </div>
-                {populaires.map((card) => (
-                    <Card key={card.title} article="populaires-card" title={card.title} price={card.price} />
+                {populairesList.map((card) => (
+                    <HebergementsCard key={card.title} article="populaires-card" cover="populaires-cover" background={card.cover} info="populaires-info" 
+                    title={card.title} price={card.price} empty_div="populaires-empty" />
                 ))}
             </div>
         </section>

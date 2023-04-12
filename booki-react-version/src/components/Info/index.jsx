@@ -4,7 +4,7 @@ import '../../style/Info.scss';
 
 export default function Info() {
     return(
-        <section>
+        <section className="section-info">
             <div className="slogan">
                 <h1>Trouvez votre hébergement pour des vacances de rêve</h1>
                 <p>En plein centre ville ou en pleine nature</p>
@@ -12,7 +12,7 @@ export default function Info() {
             <div className="div-form">
                 <form className="form">
                     <span className="location-icon"><FontAwesomeIcon icon={faLocationDot}/></span>
-                    <input className="search" type="search" name="search" value="Marseille, France"/>
+                    <input className="search" type="search" name="search" defaultValue="Marseille, France"/>
                     <input className="submit" type="submit" name="submit" value="Rechercher"/>
                     <button className="submit-mobile"><FontAwesomeIcon icon={faMagnifyingGlass}/></button>
                 </form>
