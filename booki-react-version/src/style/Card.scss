@@ -1,0 +1,12 @@
+@use 'index';
+
+span {
+    width: max-content;
+}
+
+.star {
+    color: index.$blue;
+    &:last-child {
+        color: index.$second-grey;
+    }
+}

@@ -1,6 +1,6 @@
 @use 'index';
 
-section {
+.section-info {
     width: 95%;
     margin: 0 auto;
 }
@@ -120,7 +120,7 @@ section {
 }
 
 @media screen and (max-width: 768px) {
-    section {
+    .section-info {
         margin-top: 77px;
     }
     .search {
