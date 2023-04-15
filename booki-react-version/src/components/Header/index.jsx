@@ -1,5 +1,6 @@
+import { HashLink } from "react-router-hash-link";
 import logo from "../../assets/images/logo/Booki.png";
-import "../../style/Header.scss";
+import "../../styles/Header.scss";
 
 export default function Header() {
     return(
@@ -7,8 +8,12 @@ export default function Header() {
             <img src={logo} className="booki" alt="Booki"/>
             <nav>
                 <ul className="menu">
-                    <li><a href="#hébergements">Hébergements</a></li>
-                    <li><a href="#activités">Activités</a></li>
+                    <li>
+                        <HashLink to="/#hébergements">Hébergements</HashLink>
+                    </li>
+                    <li>
+                        <HashLink to="/#activités">Activités</HashLink>
+                    </li>
                 </ul>
             </nav>
         </header>

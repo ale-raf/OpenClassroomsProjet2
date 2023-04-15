@@ -1,6 +1,6 @@
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faStar } from "@fortawesome/free-solid-svg-icons";
-import '../../style/Card.scss';
+import '../../styles/Card.scss';
 
 export default function HebergementsCard({ article, cover, background, info, title, price, empty_div }) {
     const stars = [1, 2, 3, 4, 5];

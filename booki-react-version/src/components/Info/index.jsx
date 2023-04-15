@@ -1,6 +1,6 @@
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faLocationDot, faMoneyBillWave, faMagnifyingGlass, faPerson, faHeart, faFire, faInfo } from "@fortawesome/free-solid-svg-icons";
-import '../../style/Info.scss';
+import '../../styles/Info.scss';
 
 export default function Info() {
     return(
