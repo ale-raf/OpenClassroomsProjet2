@@ -1,15 +1,10 @@
-import FirstSection from './components/FirstSection';
-import Header from './components/Header';
-import Info from './components/Info';
-import SndSection from './components/SndSection';
+import { Routes, Route } from 'react-router-dom';
+import Home from './components/Home';
 
 export default function App() {
   return (
-    <>
-    <Header/>
-    <Info/>
-    <FirstSection/>
-    <SndSection/>
-    </>
+    <Routes>
+      <Route path='/' element={<Home/>} />
+    </Routes>
   );
 }
