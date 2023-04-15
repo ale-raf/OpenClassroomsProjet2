@@ -2,7 +2,7 @@ import ActivitesCard from "../ActivitesCard";
 import activitesList from "../../datas/activites";
 import "../../styles/SndSection.scss";
 
-export default function SndSection() {
+export default function Activites() {
     return (
         <section id="activités" className="section-activites">
             <h2>Activités à Marseille</h2>

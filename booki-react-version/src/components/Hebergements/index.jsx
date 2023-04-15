@@ -5,7 +5,7 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faChartLine } from '@fortawesome/free-solid-svg-icons';
 import '../../styles/FirstSection.scss';
 
-export default function FirstSection() {
+export default function Hebergements() {
     return (
         <section className="section-group">
             <div id="hébergements" className="hebergements">

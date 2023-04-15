@@ -1,16 +1,16 @@
-import FirstSection from "../FirstSection";
-import Footer from "../Footer";
 import Header from "../Header";
 import Info from "../Info";
-import SndSection from "../SndSection";
+import Hebergements from "../Hebergements";
+import Activites from "../Activites";
+import Footer from "../Footer";
 
 export default function Home() {
     return (
         <>
             <Header/>
             <Info/>
-            <FirstSection/>
-            <SndSection/>
+            <Hebergements/>
+            <Activites/>
             <Footer/>
         </>
     )
